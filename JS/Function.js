@@ -20,3 +20,13 @@ function subtraction(val1, val2) {
 
 let sub = subtraction(10,5);
 console.log("Sub : ",sub);
+
+function localVariable() {
+    let carname = "Volvo";
+    console.log("Car name : ",carName);
+}
+
+localVariable();
+
+// carname is not available outside of function
+// console.log(carname);
